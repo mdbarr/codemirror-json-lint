@@ -1,0 +1,20 @@
+{
+  "name": "@mdbarr/codemirror-json-lint",
+  "version": "0.1.0",
+  "description": "JSON Linter addon for CodeMirror",
+  "main": "index.js",
+  "repository": "git@github.com:mdbarr/codemirror-json-lint.git",
+  "author": "Mark Barr <mark@hyperingenuity.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "codemirror": "^5.46.0",
+    "jsonlint-mod": "^1.7.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "scripts": {
+    "lint": "eslint index.js"
+  }
+}
